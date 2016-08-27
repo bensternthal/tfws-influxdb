@@ -1,0 +1,23 @@
+{
+  "name": "tfws",
+  "version": "0.0.0",
+  "description": "TinkerForge Weather Station and Webserver",
+  "main": "app.js",
+  "engines": {
+    "node": ">= 0.12.X",
+    "npm": ">= 1.2.x"
+  },
+  "scripts": {
+    "test": "node app.js",
+    "start": "forever start -s app.js"
+  },
+  "author": "Benjamin Sternthal",
+  "license": {
+    "license": "MPL-2.0"
+  },
+  "dependencies": {
+    "influx": "^4.2.1",
+    "nconf": "~0.6.9",
+    "tinkerforge": "~2.0.0-11"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "influx_host": "",
+    "influx_port": ,
+    "influx_username": "",
+    "influx_password": "",
+    "influx_db": ""
+}

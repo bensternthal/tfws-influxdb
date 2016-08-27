@@ -1,0 +1,5 @@
+{
+  "jquery": true,
+  "globalstrict": 1,
+  "node": true
+}
