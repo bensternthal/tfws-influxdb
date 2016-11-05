@@ -3,5 +3,10 @@
     "influx_port": ,
     "influx_username": "",
     "influx_password": "",
-    "influx_db": ""
+    "influx_db": "",
+    "update_frequency": ,
+    "slackbot": {
+        "api_token": "",
+        "channel": ""
+    }
 }
