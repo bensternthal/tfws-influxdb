@@ -28,7 +28,7 @@ process.stdin.on('data', function(data) {
 
 function getData() {
 
-    tfws.gettfwsJSON().then(Influx.writeInflux).then(function() {
+    tfws.getTfwsJSON().then(Influx.writeInflux).then(function() {
         setTimeout(getData, conf.get('update_frequency'));
     }).catch(function(e) {
         bot.postMessageToGroup(channel,  e.message);
